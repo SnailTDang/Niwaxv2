@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px) {
+    .navbar-custom {
+        /* position: fixed;
+        top: 0;
+        height: 100vh;
+        left: 0;
+        width: 280px;
+        backdrop-filter: blur(20px) */
+
+    }
+
+    .hero {
+        height: auto;
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+    .hero-container {
+        max-width: 960px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .hero__content {
+        flex-wrap: wrap;
+    }
+
+    .content__colleft, .content__colright {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+    .services-card {
+        margin-top: 50px;
+    }
+
+    .career-content {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .counter-small {
+        flex-wrap: wrap;
+    }
+
+    .counter-prj {
+        flex-basis: 33.333333%;
+    }
+}

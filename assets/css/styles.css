@@ -346,7 +346,7 @@ header {
 }
 
 .content__colleft {
-    /* flex: 0 0 41.666666667%; */
+    flex: 0 0 41.666666667%;
     max-width: 41.666666667%;
     padding: 0 15px;
 }
@@ -376,7 +376,7 @@ header {
 }
 
 .content__colright {
-    /* flex: 0 0 58.333333%; */
+    flex: 0 0 58.333333%;
     max-width: 58.333333%;
     padding: 0 15px;
     overflow: hidden;
