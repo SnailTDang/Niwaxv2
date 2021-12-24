@@ -36,5 +36,6 @@
 
     .counter-prj {
         flex-basis: 33.333333%;
+        max-width: 33.333333%;
     }
 }
